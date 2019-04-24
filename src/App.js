@@ -8,15 +8,21 @@ import './App.css';
 import Navbar from './Components/Layout/Navbar'
 import Footer from './Components/Layout/Footer'
 
+// Pages
+import Landing from './Components/Pages/Landing'
+
+
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
           <Navbar />
-          <Footer/>
+          <Route exact path="/" component={Landing} />
+          <Footer />
         </div>
-    </Router>);
+      </Router>
+    );
   }
 }
 

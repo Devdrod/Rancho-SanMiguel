@@ -6,8 +6,8 @@ import '../../App.css'
 class Navbar extends Component {
     render() {
         return (
-          <div>
-            <nav className="navbar navbar-default navbar-expand-lg navbar-dark bg-dark">
+          <div className="container">
+            <nav className="navbar fixed-top navbar-default navbar-expand-lg navbar-dark bg-dark ">
               <button
                 className="navbar-toggler"
                 type="button"
@@ -19,20 +19,19 @@ class Navbar extends Component {
               >
                 <span className="navbar-toggler-icon" />
               </button>
-              <div
-                className="text-left collapse navbar-collapse"
+              <div className="collapse navbar-collapse"
                 id="navbarNav"
               >
-                <ul className="navbar-nav">
-                  <li class=" nav-item font-weight-bold pl-6 pt-3 pr-2 ">
-                    <a class="nav-link" href="#">
-                      About Us
+                <ul className="navbar-nav px-7">
+                  <li className=" nav-item font-weight-bold pt-3 pr-2 ">
+                    <a className="nav-link" href="#">
+              About us
                     </a>
                   </li>
 
-                  <li class="nav-item pt-3 pr-6 dropdown">
+                  <li className="nav-item pt-3 pr-6 dropdown">
                     <Link
-                      class="nav-link dropdown-toggle"
+                      className="nav-link dropdown-toggle"
                       href="#"
                       id="navbarDropdown"
                       role="button"
@@ -43,17 +42,17 @@ class Navbar extends Component {
                       Farm Services
                     </Link>
                     <div
-                      class="dropdown-menu"
+                      className="dropdown-menu"
                       aria-labelledby="navbarDropdown"
                     >
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         Andalusian Horse Show
                       </Link>
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                         Horse-back ridding School
                       </Link>
-                      <div class="dropdown-divider" />
-                      <Link class="dropdown-item" href="#">
+                      <div className="dropdown-divider" />
+                      <Link className="dropdown-item" href="#">
                        extras
                       </Link>
                     </div>
@@ -66,9 +65,9 @@ class Navbar extends Component {
                     />
                   </li>
 
-                  <li class="nav-item pt-3 pr-2 dropdown">
+                  <li className="nav-item pt-3 pr-2 dropdown">
                     <Link
-                      class="nav-link dropdown-toggle"
+                      className="nav-link dropdown-toggle"
                       href="#"
                       id="navbarDropdown"
                       role="button"
@@ -79,23 +78,23 @@ class Navbar extends Component {
                       Rent for event
                     </Link>
                     <div
-                      class="dropdown-menu"
+                      className="dropdown-menu"
                       aria-labelledby="navbarDropdown"
                     >
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                        Facilities
                       </Link>
-                      <Link class="dropdown-item" href="#">
+                      <Link className="dropdown-item" href="#">
                        Past events
                       </Link>
-                      <div class="dropdown-divider" />
-                      <Link class="dropdown-item" href="#">
+                      <div className="dropdown-divider" />
+                      <Link className="dropdown-item" href="#">
                         extras
                       </Link>
                     </div>
                   </li>
-                  <li class="nav-item pt-3 pr-2">
-                    <a class="nav-link" href="#">
+                  <li className="nav-item pt-3">
+                    <a className="nav-link" href="#">
                       Contact
                     </a>
                   </li>
