@@ -24,9 +24,9 @@ class Navbar extends Component {
               >
                 <ul className="navbar-nav px-7">
                   <li className=" nav-item font-weight-bold pt-3 pr-2 ">
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to="#">
               About us
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item pt-3 pr-6 dropdown">
@@ -94,9 +94,9 @@ class Navbar extends Component {
                     </div>
                   </li>
                   <li className="nav-item pt-3">
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to="#">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

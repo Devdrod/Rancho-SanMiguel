@@ -7,18 +7,20 @@
   width: 80px;
 }
 .brand:hover{
-transform: scale(1.3,1.3)
+transform: scale(1.2,1.2)
 }
 
 
 .landing {
   position: absolute;
   background: url('./images/landingphoto3.jpg') no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
    width: 100%;
-  height: 200%;
- 
+  height: 240%;
+font-family: 'PT Sans', sans-serif;
+
 }
 
 .dark-overlay {
@@ -39,6 +41,12 @@ background-position: center;
 }
 .jumbo2{
 background-image: url('./images/jumbo2.jpg');
+position: relative;
+background-size: cover;
+background-position: center;
+}
+.jumbo3{
+background-image: url('./images/laescuelita.jpg');
 position: relative;
 background-size: cover;
 background-position: center;

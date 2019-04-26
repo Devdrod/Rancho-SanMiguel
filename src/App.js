@@ -8,6 +8,7 @@ import './App.css';
 import Navbar from './Components/Layout/Navbar'
 import Footer from './Components/Layout/Footer'
 
+
 // Pages
 import Landing from './Components/Pages/Landing'
 
